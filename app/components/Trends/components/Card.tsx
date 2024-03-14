@@ -1,3 +1,4 @@
+"use client";
 import Link from "next/link";
 import { FunctionComponent } from "react";
 import { SquareImg } from "../../common";
