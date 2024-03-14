@@ -51,25 +51,25 @@
   "trends": [
     {
       "title": "Car",
-      "description": "lorem ipsum",
+      "description": "Lorem ipsum dolor",
       "img": "/trends/car.jpg",
       "href": "#"
     },
     {
       "title": "Woman",
-      "description": "lorem ipsum",
+      "description": "Lorem ipsum dolor",
       "img": "/trends/woman.jpg",
       "href": "#"
     },
     {
       "title": "Food",
-      "description": "lorem ipsum",
+      "description": "Lorem ipsum dolor",
       "img": "/trends/food.jpg",
       "href": "#"
     },
     {
       "title": "Frog",
-      "description": "lorem ipsum",
+      "description": "Lorem ipsum dolor",
       "img": "/trends/frog.jpg",
       "href": "#"
     }
@@ -97,6 +97,28 @@
       "title": "Laptop",
       "description": "lorem ipsum",
       "href": "single/laptop",
+      "img": "/post/laptop.jpg"
+    }
+  ],
+  "articles": [
+    {
+      "topic": "Car",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dignissim enim sit amet venenatis urna cursus eget. Suspendisse interdum consectetur libero id faucibus nisl. Dictum sit amet justo donec enim diam vulputate. Tristique sollicitudin nibh sit amet commodo nulla facilisi. Eget arcu dictum varius duis at consectetur lorem donec massa. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin. Tempor orci dapibus ultrices in. Aenean sed adipiscing diam donec adipiscing. Viverra maecenas accumsan lacus vel. Hendrerit gravida rutrum quisque non tellus orci ac. Aliquet lectus proin nibh nisl condimentum id. Auctor urna nunc id cursus metus aliquam eleifend mi in. Cras sed felis eget velit. Turpis egestas sed tempus urna et pharetra. Et netus et malesuada fames ac turpis egestas maecenas. Ac felis donec et odio pellentesque diam volutpat commodo. In tellus integer feugiat scelerisque varius morbi",
+      "img": "/post/car.jpg"
+    },
+    {
+      "topic": "Boat",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dignissim enim sit amet venenatis urna cursus eget. Suspendisse interdum consectetur libero id faucibus nisl. Dictum sit amet justo donec enim diam vulputate. Tristique sollicitudin nibh sit amet commodo nulla facilisi. Eget arcu dictum varius duis at consectetur lorem donec massa. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin. Tempor orci dapibus ultrices in. Aenean sed adipiscing diam donec adipiscing. Viverra maecenas accumsan lacus vel. Hendrerit gravida rutrum quisque non tellus orci ac. Aliquet lectus proin nibh nisl condimentum id. Auctor urna nunc id cursus metus aliquam eleifend mi in. Cras sed felis eget velit. Turpis egestas sed tempus urna et pharetra. Et netus et malesuada fames ac turpis egestas maecenas. Ac felis donec et odio pellentesque diam volutpat commodo. In tellus integer feugiat scelerisque varius morbi",
+      "img": "/post/boat.jpg"
+    },
+    {
+      "topic": "Food",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dignissim enim sit amet venenatis urna cursus eget. Suspendisse interdum consectetur libero id faucibus nisl. Dictum sit amet justo donec enim diam vulputate. Tristique sollicitudin nibh sit amet commodo nulla facilisi. Eget arcu dictum varius duis at consectetur lorem donec massa. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin. Tempor orci dapibus ultrices in. Aenean sed adipiscing diam donec adipiscing. Viverra maecenas accumsan lacus vel. Hendrerit gravida rutrum quisque non tellus orci ac. Aliquet lectus proin nibh nisl condimentum id. Auctor urna nunc id cursus metus aliquam eleifend mi in. Cras sed felis eget velit. Turpis egestas sed tempus urna et pharetra. Et netus et malesuada fames ac turpis egestas maecenas. Ac felis donec et odio pellentesque diam volutpat commodo. In tellus integer feugiat scelerisque varius morbi",
+      "img": "/post/food.jpg"
+    },
+    {
+      "topic": "Laptop",
+      "body": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Dignissim enim sit amet venenatis urna cursus eget. Suspendisse interdum consectetur libero id faucibus nisl. Dictum sit amet justo donec enim diam vulputate. Tristique sollicitudin nibh sit amet commodo nulla facilisi. Eget arcu dictum varius duis at consectetur lorem donec massa. Massa tincidunt nunc pulvinar sapien et ligula ullamcorper malesuada proin. Tempor orci dapibus ultrices in. Aenean sed adipiscing diam donec adipiscing. Viverra maecenas accumsan lacus vel. Hendrerit gravida rutrum quisque non tellus orci ac. Aliquet lectus proin nibh nisl condimentum id. Auctor urna nunc id cursus metus aliquam eleifend mi in. Cras sed felis eget velit. Turpis egestas sed tempus urna et pharetra. Et netus et malesuada fames ac turpis egestas maecenas. Ac felis donec et odio pellentesque diam volutpat commodo. In tellus integer feugiat scelerisque varius morbilorem ipsum",
       "img": "/post/laptop.jpg"
     }
   ]

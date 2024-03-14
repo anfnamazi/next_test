@@ -9,11 +9,11 @@ interface SingleLayoutProps {
 const SingleLayout: FunctionComponent<SingleLayoutProps> = ({ children }) => {
   return (
     <main className="grid grid-flow-col gap-4 w-full">
-      <main className="col-span-10">
+      <main className="col-span-8">
         <Breadcrumbs />
         {children}
       </main>
-      <section className="col-span-2">
+      <section className="col-span-4">
         <Trends />
       </section>
     </main>
