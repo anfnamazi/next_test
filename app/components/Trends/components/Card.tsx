@@ -8,7 +8,7 @@ interface CardProps {
 
 const Card: FunctionComponent<CardProps> = ({ item }) => {
   return (
-    <a href={item.href} className="flex items-center justify-start">
+    <a href={item.href} className="flex items-center justify-start my-4">
       <SquareImg
         src={item.img}
         alt={item.title}
