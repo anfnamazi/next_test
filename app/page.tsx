@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import { Card } from "./components/common";
+import { Card } from "./components";
 import data from "./data.json";
 
 interface HomeProps {}

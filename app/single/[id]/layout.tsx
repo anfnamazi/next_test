@@ -1,4 +1,5 @@
-import { Trends } from "@/app/components";
+"use client";
+import { Breadcrumbs, Trends } from "@/app/components";
 import { FunctionComponent } from "react";
 
 interface SingleLayoutProps {
@@ -8,7 +9,10 @@ interface SingleLayoutProps {
 const SingleLayout: FunctionComponent<SingleLayoutProps> = ({ children }) => {
   return (
     <main className="grid grid-flow-col gap-4 w-full">
-      <main className="col-span-10">{children}</main>
+      <main className="col-span-10">
+        <Breadcrumbs />
+        {children}
+      </main>
       <section className="col-span-2">
         <Trends />
       </section>
