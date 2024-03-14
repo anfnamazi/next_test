@@ -2,8 +2,8 @@
 import { Popover } from "@headlessui/react";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
 import { FunctionComponent } from "react";
-import HeaderCategory from "./components/HeaderCategory";
-import HeaderSearch from "./components/HeaderSearch";
+import Category from "./components/Category";
+import Search from "./components/Search";
 import staticData from "./static.json";
 
 interface HeaderProps {}
@@ -29,7 +29,7 @@ const Header: FunctionComponent<HeaderProps> = () => {
             <Popover.Panel className="absolute -left-full w-calc-screen top-full z-10 mt-3 overflow-hidden rounded-3xl bg-white shadow ring-1 ring-gray-900/5">
               <div className="p-1 flex">
                 {staticData.categories.map((item) => (
-                  <HeaderCategory key={item.name} item={item} />
+                  <Category key={item.name} item={item} />
                 ))}
               </div>
             </Popover.Panel>
@@ -46,7 +46,7 @@ const Header: FunctionComponent<HeaderProps> = () => {
           </a>
         </Popover.Group>
         <div className="flex flex-1 justify-end">
-          <HeaderSearch />
+          <Search />
         </div>
       </nav>
     </header>

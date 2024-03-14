@@ -3,11 +3,11 @@ import Image from "next/image";
 import { FunctionComponent } from "react";
 import { ICategory } from "../types/HeaderTypes";
 
-interface HeaderCategoryProps {
+interface CategoryProps {
   item: ICategory;
 }
 
-const HeaderCategory: FunctionComponent<HeaderCategoryProps> = ({ item }) => {
+const Category: FunctionComponent<CategoryProps> = ({ item }) => {
   return (
     <div
       key={item.name}
@@ -42,4 +42,4 @@ const HeaderCategory: FunctionComponent<HeaderCategoryProps> = ({ item }) => {
   );
 };
 
-export default HeaderCategory;
+export default Category;

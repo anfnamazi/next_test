@@ -2,11 +2,11 @@
 import { FunctionComponent } from "react";
 import { FaEllipsisV, FaSearch } from "react-icons/fa";
 
-interface HeaderSearchProps {
+interface SearchProps {
   className?: string | undefined;
 }
 
-const HeaderSearch: FunctionComponent<HeaderSearchProps> = ({ className }) => {
+const Search: FunctionComponent<SearchProps> = ({ className }) => {
   return (
     <div className={className}>
       <div className="flex relative rounded-md shadow-sm">
@@ -31,4 +31,4 @@ const HeaderSearch: FunctionComponent<HeaderSearchProps> = ({ className }) => {
   );
 };
 
-export default HeaderSearch;
+export default Search;
