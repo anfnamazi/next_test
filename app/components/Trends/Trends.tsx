@@ -7,7 +7,7 @@ interface TrendsProps {}
 
 const Trends: FunctionComponent<TrendsProps> = () => {
   return (
-    <section>
+    <section className="bg-gray-200 py-2 px-4 rounded-lg">
       <h1>Top posts</h1>
       {data.trends.map((trend) => (
         <Card item={trend} key={trend.title} />
