@@ -31,18 +31,18 @@ const Header: FunctionComponent<HeaderProps> = () => {
             <Popover.Panel className="absolute -left-full w-calc-screen top-full z-10 mt-3 overflow-hidden rounded-3xl bg-white shadow ring-1 ring-gray-900/5">
               <div className="p-1 flex">
                 {data.header.categories.map((item) => (
-                  <Category key={item.name} item={item} />
+                  <Category key={item.title} item={item} />
                 ))}
               </div>
             </Popover.Panel>
           </Popover>
           {data.header.links.map((link) => (
             <a
-              key={link.name}
+              key={link.title}
               href={link.href}
               className="text-sm font-semibold leading-6 text-gray-900"
             >
-              {link.name}
+              {link.title}
             </a>
           ))}
         </Popover.Group>

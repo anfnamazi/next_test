@@ -2,50 +2,76 @@
   "header": {
     "categories": [
       {
-        "name": "Car",
+        "title": "Car",
         "links": [
-          { "name": "News", "href": "#" },
-          { "name": "Price", "href": "#" },
-          { "name": "Article", "href": "#" }
+          { "title": "News", "href": "#" },
+          { "title": "Price", "href": "#" },
+          { "title": "Article", "href": "#" }
         ],
         "href": "#",
         "img": "/header/car.jpg"
       },
       {
-        "name": "Boat",
+        "title": "Boat",
         "links": [
-          { "name": "News", "href": "#" },
-          { "name": "Price", "href": "#" },
-          { "name": "Article", "href": "#" }
+          { "title": "News", "href": "#" },
+          { "title": "Price", "href": "#" },
+          { "title": "Article", "href": "#" }
         ],
         "href": "#",
         "img": "/header/boat.jpg"
       },
       {
-        "name": "Food",
+        "title": "Food",
         "links": [
-          { "name": "News", "href": "#" },
-          { "name": "Price", "href": "#" },
-          { "name": "Article", "href": "#" }
+          { "title": "News", "href": "#" },
+          { "title": "Price", "href": "#" },
+          { "title": "Article", "href": "#" }
         ],
         "href": "#",
         "img": "/header/food.jpg"
       },
       {
-        "name": "Laptop",
+        "title": "Laptop",
         "links": [
-          { "name": "News", "href": "#" },
-          { "name": "Price", "href": "#" },
-          { "name": "Article", "href": "#" }
+          { "title": "News", "href": "#" },
+          { "title": "Price", "href": "#" },
+          { "title": "Article", "href": "#" }
         ],
         "href": "#",
         "img": "/header/laptop.jpg"
       }
     ],
     "links": [
-      { "name": "Pages", "href": "#" },
-      { "name": "Contact Us", "href": "#" },
-      { "name": "About Us", "href": "#" }
+      { "title": "Pages", "href": "#" },
+      { "title": "Contact Us", "href": "#" },
+      { "title": "About Us", "href": "#" }
     ]
-  }
+  },
+  "trends": [
+    {
+      "title": "Car",
+      "description": "lorem ipsum",
+      "img": "/trends/car.jpg",
+      "href": "#"
+    },
+    {
+      "title": "Woman",
+      "description": "lorem ipsum",
+      "img": "/trends/woman.jpg",
+      "href": "#"
+    },
+    {
+      "title": "Food",
+      "description": "lorem ipsum",
+      "img": "/trends/food.jpg",
+      "href": "#"
+    },
+    {
+      "title": "Frog",
+      "description": "lorem ipsum",
+      "img": "/trends/frog.jpg",
+      "href": "#"
+    }
+  ]
 }

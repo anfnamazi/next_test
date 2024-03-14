@@ -1,3 +1,9 @@
-export default function Home() {
-  return <main className="container flex mx-auto">asgsg</main>;
-}
+import { FunctionComponent } from "react";
+
+interface HomeProps {}
+
+const Home: FunctionComponent<HomeProps> = () => {
+  return <main className="">asgsg</main>;
+};
+
+export default Home;
