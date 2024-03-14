@@ -8,8 +8,8 @@ interface SingleLayoutProps {
 const SingleLayout: FunctionComponent<SingleLayoutProps> = ({ children }) => {
   return (
     <main className="grid grid-flow-col gap-4 w-full">
-      <main className="col-span-9">{children}</main>
-      <section className="col-span-3">
+      <main className="col-span-10">{children}</main>
+      <section className="col-span-2">
         <Trends />
       </section>
     </main>
