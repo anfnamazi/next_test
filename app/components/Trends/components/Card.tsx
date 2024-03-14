@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { FunctionComponent } from "react";
 import { SquareImg } from "../../common";
 import { ITrend } from "../types/TrendsTypes";
@@ -8,7 +9,10 @@ interface CardProps {
 
 const Card: FunctionComponent<CardProps> = ({ item }) => {
   return (
-    <a href={item.href} className="block flex items-center justify-start my-4">
+    <Link
+      href={item.href}
+      className="block flex items-center justify-start my-4"
+    >
       <SquareImg
         src={item.img}
         alt={item.title}
@@ -20,7 +24,7 @@ const Card: FunctionComponent<CardProps> = ({ item }) => {
         <span className="font-bold">{item.title}</span>
         <p className="">{item.description}</p>
       </div>
-    </a>
+    </Link>
   );
 };
 

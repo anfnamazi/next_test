@@ -78,25 +78,25 @@
     {
       "title": "Car",
       "description": "lorem ipsum",
-      "href": "#",
+      "href": "single/car",
       "img": "/post/car.jpg"
     },
     {
       "title": "Boat",
       "description": "lorem ipsum",
-      "href": "#",
+      "href": "single/boat",
       "img": "/post/boat.jpg"
     },
     {
       "title": "Food",
       "description": "lorem ipsum",
-      "href": "#",
+      "href": "single/food",
       "img": "/post/food.jpg"
     },
     {
       "title": "Laptop",
       "description": "lorem ipsum",
-      "href": "#",
+      "href": "single/laptop",
       "img": "/post/laptop.jpg"
     }
   ]

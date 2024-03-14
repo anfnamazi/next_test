@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import { FunctionComponent } from "react";
 
 interface CardProps {
@@ -7,7 +8,7 @@ interface CardProps {
 
 const Card: FunctionComponent<CardProps> = ({ item }) => {
   return (
-    <a
+    <Link
       href={item.href}
       className="bg-white block rounded-lg shadow-lg overflow-hidden m-2"
     >
@@ -22,7 +23,7 @@ const Card: FunctionComponent<CardProps> = ({ item }) => {
         <strong className="font-bold mb-2 text-2xl">{item.title}</strong>
         <p className="mb-2">{item.description}</p>
       </div>
-    </a>
+    </Link>
   );
 };
 

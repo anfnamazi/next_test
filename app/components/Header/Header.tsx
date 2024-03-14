@@ -1,6 +1,7 @@
 "use client";
 import { Popover } from "@headlessui/react";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
+import Link from "next/link";
 import { FunctionComponent } from "react";
 import data from "../../data.json";
 import Category from "./components/Category";
@@ -15,9 +16,9 @@ const Header: FunctionComponent<HeaderProps> = () => {
         className="mx-auto flex items-start justify-start py-4 container"
         aria-label="Global"
       >
-        <a href="#" className="flex mr-10 text-red-600 font-bold">
+        <Link href="#" className="flex mr-10 text-red-600 font-bold">
           MEGA.news
-        </a>
+        </Link>
         <Popover.Group className="flex flex- gap-x-8">
           <Popover className="relative">
             <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900">
@@ -37,13 +38,13 @@ const Header: FunctionComponent<HeaderProps> = () => {
             </Popover.Panel>
           </Popover>
           {data.header.links.map((link) => (
-            <a
+            <Link
               key={link.title}
               href={link.href}
               className="text-sm font-semibold leading-6 text-gray-900"
             >
               {link.title}
-            </a>
+            </Link>
           ))}
         </Popover.Group>
         <div className="flex flex-1 justify-end">
