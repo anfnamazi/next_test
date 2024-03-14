@@ -12,7 +12,7 @@ const Header: FunctionComponent<HeaderProps> = () => {
   return (
     <header className="bg-white">
       <nav
-        className="mx-auto flex items-start justify-start p-6 px-8"
+        className="mx-auto flex items-start justify-start py-4 container"
         aria-label="Global"
       >
         <a href="#" className="flex mr-10 text-red-600 font-bold">

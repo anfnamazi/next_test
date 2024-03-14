@@ -1,3 +1,3 @@
 export default function Home() {
-  return <main className="flex min-h-screen justify-between">asgsg</main>;
+  return <main className="container flex mx-auto">asgsg</main>;
 }
