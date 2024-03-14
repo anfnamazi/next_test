@@ -1,11 +1,11 @@
 export interface ICategory {
   name: string;
-  links: ICategoryLink[];
+  links: ILink[];
   href: string;
   img: string;
 }
 
-export interface ICategoryLink {
+export interface ILink {
   name: string;
   href: string;
 }
