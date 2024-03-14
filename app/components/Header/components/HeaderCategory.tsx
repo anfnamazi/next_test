@@ -1,10 +1,10 @@
 "use client";
 import Image from "next/image";
 import { FunctionComponent } from "react";
-import { IHeaderCategory } from "../types/HeaderTypes";
+import { ICategory } from "../types/HeaderTypes";
 
 interface HeaderCategoryProps {
-  item: IHeaderCategory;
+  item: ICategory;
 }
 
 const HeaderCategory: FunctionComponent<HeaderCategoryProps> = ({ item }) => {

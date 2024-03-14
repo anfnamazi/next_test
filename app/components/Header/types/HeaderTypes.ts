@@ -1,11 +1,11 @@
-export interface IHeaderCategory {
+export interface ICategory {
   name: string;
-  links: IHeaderCategoryLink[];
+  links: ICategoryLink[];
   href: string;
   img: string;
 }
 
-export interface IHeaderCategoryLink {
+export interface ICategoryLink {
   name: string;
   href: string;
 }
