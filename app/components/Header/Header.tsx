@@ -30,8 +30,8 @@ const Header: FunctionComponent<HeaderProps> = () => {
 
             <Popover.Panel className="absolute -left-full w-calc-screen top-full z-10 mt-3 overflow-hidden rounded-3xl bg-white shadow ring-1 ring-gray-900/5">
               <div className="p-1 flex">
-                {data.header.categories.map((item) => (
-                  <Category key={item.title} item={item} />
+                {data.header.categories.map((category) => (
+                  <Category key={category.title} item={category} />
                 ))}
               </div>
             </Popover.Panel>

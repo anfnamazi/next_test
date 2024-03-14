@@ -1,5 +1,5 @@
 import { FunctionComponent } from "react";
-import SquareImg from "../../common/SquareImg";
+import { SquareImg } from "../../common";
 import { ITrend } from "../types/TrendsTypes";
 
 interface CardProps {
@@ -8,7 +8,7 @@ interface CardProps {
 
 const Card: FunctionComponent<CardProps> = ({ item }) => {
   return (
-    <a href={item.href} className="flex items-center justify-start my-4">
+    <a href={item.href} className="block flex items-center justify-start my-4">
       <SquareImg
         src={item.img}
         alt={item.title}

@@ -1,6 +1,6 @@
 "use client";
 import { FunctionComponent } from "react";
-import SquareImg from "../../common/SquareImg";
+import { SquareImg } from "../../common";
 import { ICategory } from "../types/HeaderTypes";
 
 interface CategoryProps {

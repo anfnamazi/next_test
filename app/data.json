@@ -9,7 +9,7 @@
           { "title": "Article", "href": "#" }
         ],
         "href": "#",
-        "img": "/header/car.jpg"
+        "img": "/post/car.jpg"
       },
       {
         "title": "Boat",
@@ -19,7 +19,7 @@
           { "title": "Article", "href": "#" }
         ],
         "href": "#",
-        "img": "/header/boat.jpg"
+        "img": "/post/boat.jpg"
       },
       {
         "title": "Food",
@@ -29,7 +29,7 @@
           { "title": "Article", "href": "#" }
         ],
         "href": "#",
-        "img": "/header/food.jpg"
+        "img": "/post/food.jpg"
       },
       {
         "title": "Laptop",
@@ -39,7 +39,7 @@
           { "title": "Article", "href": "#" }
         ],
         "href": "#",
-        "img": "/header/laptop.jpg"
+        "img": "/post/laptop.jpg"
       }
     ],
     "links": [
@@ -72,6 +72,32 @@
       "description": "lorem ipsum",
       "img": "/trends/frog.jpg",
       "href": "#"
+    }
+  ],
+  "posts": [
+    {
+      "title": "Car",
+      "description": "lorem ipsum",
+      "href": "#",
+      "img": "/post/car.jpg"
+    },
+    {
+      "title": "Boat",
+      "description": "lorem ipsum",
+      "href": "#",
+      "img": "/post/boat.jpg"
+    },
+    {
+      "title": "Food",
+      "description": "lorem ipsum",
+      "href": "#",
+      "img": "/post/food.jpg"
+    },
+    {
+      "title": "Laptop",
+      "description": "lorem ipsum",
+      "href": "#",
+      "img": "/post/laptop.jpg"
     }
   ]
 }

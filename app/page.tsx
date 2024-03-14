@@ -1,9 +1,20 @@
 import { FunctionComponent } from "react";
+import { Card } from "./components/common";
+import data from "./data.json";
 
 interface HomeProps {}
 
 const Home: FunctionComponent<HomeProps> = () => {
-  return <main className="">asgsg</main>;
+  return (
+    <main>
+      <h1>Popular Post</h1>
+      <div className="flex">
+        {data.posts.map((post) => (
+          <Card item={post} key={post.title} />
+        ))}
+      </div>
+    </main>
+  );
 };
 
 export default Home;
