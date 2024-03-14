@@ -8,7 +8,7 @@ const Home: FunctionComponent<HomeProps> = () => {
   return (
     <main>
       <h1>Popular Post</h1>
-      <div className="flex">
+      <div className="flex flex-wrap">
         {data.posts.map((post) => (
           <Card item={post} key={post.title} />
         ))}
