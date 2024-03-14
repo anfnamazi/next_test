@@ -2,9 +2,9 @@
 import { Popover } from "@headlessui/react";
 import { ChevronDownIcon } from "@heroicons/react/20/solid";
 import { FunctionComponent } from "react";
+import data from "../../data.json";
 import Category from "./components/Category";
 import Search from "./components/Search";
-import staticData from "./static.json";
 
 interface HeaderProps {}
 
@@ -15,7 +15,9 @@ const Header: FunctionComponent<HeaderProps> = () => {
         className="mx-auto flex items-start justify-start p-6 px-8"
         aria-label="Global"
       >
-        <a className="flex mr-10 text-red-600 font-bold">MEGA.news</a>
+        <a href="#" className="flex mr-10 text-red-600 font-bold">
+          MEGA.news
+        </a>
         <Popover.Group className="flex flex- gap-x-8">
           <Popover className="relative">
             <Popover.Button className="flex items-center gap-x-1 text-sm font-semibold leading-6 text-gray-900">
@@ -28,22 +30,21 @@ const Header: FunctionComponent<HeaderProps> = () => {
 
             <Popover.Panel className="absolute -left-full w-calc-screen top-full z-10 mt-3 overflow-hidden rounded-3xl bg-white shadow ring-1 ring-gray-900/5">
               <div className="p-1 flex">
-                {staticData.categories.map((item) => (
+                {data.header.categories.map((item) => (
                   <Category key={item.name} item={item} />
                 ))}
               </div>
             </Popover.Panel>
           </Popover>
-
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-            Pages
-          </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-            Contact Us
-          </a>
-          <a href="#" className="text-sm font-semibold leading-6 text-gray-900">
-            About Us
-          </a>
+          {data.header.links.map((link) => (
+            <a
+              key={link.name}
+              href={link.href}
+              className="text-sm font-semibold leading-6 text-gray-900"
+            >
+              {link.name}
+            </a>
+          ))}
         </Popover.Group>
         <div className="flex flex-1 justify-end">
           <Search />

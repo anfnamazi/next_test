@@ -1,0 +1,51 @@
+{
+  "header": {
+    "categories": [
+      {
+        "name": "Car",
+        "links": [
+          { "name": "News", "href": "#" },
+          { "name": "Price", "href": "#" },
+          { "name": "Article", "href": "#" }
+        ],
+        "href": "#",
+        "img": "/header/car.jpg"
+      },
+      {
+        "name": "Boat",
+        "links": [
+          { "name": "News", "href": "#" },
+          { "name": "Price", "href": "#" },
+          { "name": "Article", "href": "#" }
+        ],
+        "href": "#",
+        "img": "/header/boat.jpg"
+      },
+      {
+        "name": "Food",
+        "links": [
+          { "name": "News", "href": "#" },
+          { "name": "Price", "href": "#" },
+          { "name": "Article", "href": "#" }
+        ],
+        "href": "#",
+        "img": "/header/food.jpg"
+      },
+      {
+        "name": "Laptop",
+        "links": [
+          { "name": "News", "href": "#" },
+          { "name": "Price", "href": "#" },
+          { "name": "Article", "href": "#" }
+        ],
+        "href": "#",
+        "img": "/header/laptop.jpg"
+      }
+    ],
+    "links": [
+      { "name": "Pages", "href": "#" },
+      { "name": "Contact Us", "href": "#" },
+      { "name": "About Us", "href": "#" }
+    ]
+  }
+}
